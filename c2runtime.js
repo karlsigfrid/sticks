@@ -18237,6 +18237,8 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.TriggerOnce,
 	cr.system_object.prototype.acts.Wait,
 	cr.plugins_.Sprite.prototype.exps.Count,
+	cr.system_object.prototype.exps.ceil,
+	cr.system_object.prototype.exps.random,
 	cr.plugins_.Arr.prototype.exps.At,
 	cr.system_object.prototype.cnds.EveryTick
 ];};
